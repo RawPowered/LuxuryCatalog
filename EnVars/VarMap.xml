@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VarMap project="LuxuryCatalog" updated="2026-06-10">
+  <Var name="GEMINI_API_KEY" value="process.env.GEMINI_API_KEY" usedIn="vite.config.ts,src/lib/gemini.ts" purpose="Google AI API key"/>
+  <Var name="GEMINI_IMAGE_MODEL_FREE" value="gemini-2.5-flash-image" usedIn="src/lib/gemini.ts" purpose="Nano Banana free tier image model"/>
+  <Var name="GEMINI_IMAGE_MODEL_PRO" value="gemini-3.1-flash-image-preview" usedIn="src/lib/gemini.ts" purpose="Nano Banana pro tier 4K image model"/>
+  <Var name="GEMINI_TEXT_MODEL" value="gemini-3-flash-preview" usedIn="src/lib/gemini.ts" purpose="WooCommerce copy and AI sort"/>
+  <Var name="COMPANY_NAME" value="LUX Door Co" usedIn="src/lib/catalogBranding.ts" purpose="Redacted catalog branding"/>
+  <Var name="CATALOG_FILENAME" value="LUX_Catalog_2026.pdf" usedIn="src/App.tsx" purpose="PDF export filename"/>
+  <Var name="GITHUB_REPO" value="https://github.com/GatoGodMode/LuxuryCatalog" usedIn="README.md" purpose="Public repository URL"/>
+</VarMap>

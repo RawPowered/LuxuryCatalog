@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SysMap project="LuxuryCatalog" updated="2026-06-10">
+  <Structure>
+    <File path="src/App.tsx" role="Main orchestrator: queue UI, PDF modal, WooCommerce export"/>
+    <File path="src/lib/gemini.ts" role="Nano Banana model IDs and GoogleGenAI client"/>
+    <File path="src/lib/db.ts" role="IndexedDB door-catalog-db queue and spreads"/>
+    <File path="src/lib/pdfExtractor.ts" role="PDF reverse engineering via pdfjs operator list"/>
+    <File path="src/lib/pdfExport.ts" role="Catalog PDF branding and layout constants"/>
+    <File path="src/lib/pdfImageUtils.ts" role="Double-door composite, auto-crop, resize"/>
+    <File path="src/lib/glassModifier.ts" role="Teal glass HSL unification post-process"/>
+    <File path="src/lib/catalogBranding.ts" role="Redacted LUX- publish branding"/>
+    <File path="src/lib/sku.ts" role="SKU normalization from filenames"/>
+    <File path="src/lib/imageUtils.ts" role="Blob base64 helpers"/>
+    <Folder path="src/components" role="QueueItemCard, PdfExtractorModal, ColorSyncPlugin"/>
+    <Folder path="extension/wp-media-mapper" role="Chrome MV3 WooCommerce CSV mapper"/>
+    <Folder path="assets/showcase" role="Redacted sample door PNGs for README"/>
+    <Folder path="scripts" role="extract_showcase.py PDF asset generator"/>
+    <Folder path="EnVars" role="Structural and variable maps only"/>
+  </Structure>
+  <Constraints>
+    <Rule>Client branding must use LUX- prefix in published repo; never commit raw client PDFs.</Rule>
+    <Rule>GEMINI_API_KEY required for AI features; PDF restore works without key.</Rule>
+  </Constraints>
+</SysMap>

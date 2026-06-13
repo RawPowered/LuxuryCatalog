@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "WP Media Mapper for Woo CSV",
+  "version": "0.1.0",
+  "description": "Collect WordPress Media Library URLs, map to door SKUs, and export WooCommerce CSV.",
+  "permissions": ["activeTab", "storage", "tabs", "scripting"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_title": "WP Media Mapper",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*/wp-admin/upload.php*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
