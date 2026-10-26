@@ -7,7 +7,7 @@
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
   [![React 19](https://img.shields.io/badge/React-19-087EA4?logo=react&logoColor=white)](https://react.dev/)
   [![Gemini](https://img.shields.io/badge/Gemini-Nano%20Banana-4285F4?logo=google&logoColor=white)](https://ai.google.dev/gemini-api/docs/image-generation)
-  [![Author](https://img.shields.io/badge/GitHub-GatoGodMode-181717?logo=github)](https://github.com/GatoGodMode)
+  [![Author](https://img.shields.io/badge/GitHub-RawPowered-181717?logo=github)](https://github.com/RawPowered)
 
 </div>
 
@@ -19,7 +19,7 @@ A luxury door manufacturer needed **photorealistic catalog renders** from basic 
 
 LuxuryCatalog uses **Google Gemini Nano Banana** (`gemini-2.5-flash-image` / `gemini-3.1-flash-image-preview`) to transform line art into catalog-ready doors, then exports a full **LUX_Catalog_2026.pdf**. When the only surviving artifact was the finished PDF, the built-in **PDF reverse-engineering pipeline** parsed operator lists and SKU text to rebuild the editable queue.
 
-**Created by:** [Joseph Edwards (@GatoGodMode)](https://github.com/GatoGodMode) · MIT licensed
+**Created by:** [Joseph Edwards (@RawPowered)](https://github.com/RawPowered) · MIT licensed
 
 ---
 
@@ -55,7 +55,7 @@ Sample renders extracted from a production catalog (client branding redacted to 
 **Requirements:** Node.js 18+ · `GEMINI_API_KEY` from [Google AI Studio](https://aistudio.google.com/)
 
 ```powershell
-git clone https://github.com/GatoGodMode/LuxuryCatalog.git
+git clone https://github.com/RawPowered/LuxuryCatalog.git
 cd LuxuryCatalog
 copy .env.example .env.local
 # Set GEMINI_API_KEY in .env.local
