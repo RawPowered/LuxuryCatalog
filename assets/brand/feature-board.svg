@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="778" viewBox="0 0 1280 778" role="img" aria-labelledby="title desc">
+<title id="title">LuxuryCatalog feature board</title>
+<desc id="desc">Supplied line art becomes reviewed door render families through material guides, targeted corrections and persistent browser work sessions. Source also provides supported PDF recovery and catalog exports.</desc>
+<path d="M1 1h1216l62 56v720H38L1 738z" fill="#090A0B" stroke="#373A3D" stroke-width="2"/>
+<path d="M1 1h458l-8 7H1z" fill="#D5FF3F"/>
+<path d="M1088 1h129l62 56v114z" fill="#1B1D1F"/>
+<g font-family="Arial,sans-serif">
+<text x="34" y="48" fill="#D5FF3F" font-size="15" letter-spacing="3" font-weight="700">RAWPOWERED / VISUAL SYSTEMS</text>
+<text x="30" y="116" fill="#F7F8F9" font-size="62" letter-spacing="-2" font-weight="700">LuxuryCatalog</text>
+<text x="34" y="158" fill="#B9BEC2" font-size="23">From client line art to a consistent, catalog-ready door collection.</text>
+<path d="M32 182h1215" stroke="#373A3D"/>
+<text x="34" y="216" fill="#D5FF3F" font-size="14" letter-spacing="2" font-weight="700">THE CHALLENGE</text>
+<text x="34" y="249" fill="#F7F8F9" font-size="24" font-weight="700">The client could show line drawings, but had no repeatable way to hold shape and color.</text>
+<text x="34" y="282" fill="#B9BEC2" font-size="20">A guided image workflow turned those drawings into reviewed light and dark product views.</text>
+
+<path d="M32 317h378l17 17v161H45L32 498z" fill="#151719" stroke="#373A3D"/>
+<path d="M32 317h91l-4 5H32z" fill="#D5FF3F"/>
+<text x="49" y="354" fill="#D5FF3F" font-size="14" letter-spacing="2">01 /</text>
+<text x="49" y="389" fill="#F7F8F9" font-size="21" font-weight="700">CONTROL THE SHAPE</text>
+<text x="49" y="428" fill="#B9BEC2" font-size="17">Start with the supplied line art.</text>
+<text x="49" y="452" fill="#B9BEC2" font-size="17">Hold motif, spacing and framing</text>
+<text x="49" y="476" fill="#B9BEC2" font-size="17">through a repeatable review loop.</text>
+<path d="M443 317h378l17 17v161H456L443 498z" fill="#151719" stroke="#373A3D"/>
+<path d="M443 317h91l-4 5H443z" fill="#D5FF3F"/>
+<text x="460" y="354" fill="#D5FF3F" font-size="14" letter-spacing="2">02 /</text>
+<text x="460" y="389" fill="#F7F8F9" font-size="21" font-weight="700">DIRECT THE MATERIAL</text>
+<text x="460" y="428" fill="#B9BEC2" font-size="17">Red marks glass; blue marks</text>
+<text x="460" y="452" fill="#B9BEC2" font-size="17">solid structure. Refine glass,</text>
+<text x="460" y="476" fill="#B9BEC2" font-size="17">repaint and polish separately.</text>
+<path d="M854 317h378l17 17v161H867L854 498z" fill="#151719" stroke="#373A3D"/>
+<path d="M854 317h91l-4 5H854z" fill="#D5FF3F"/>
+<text x="871" y="354" fill="#D5FF3F" font-size="14" letter-spacing="2">03 /</text>
+<text x="871" y="389" fill="#F7F8F9" font-size="21" font-weight="700">ASSESS &amp; REFINE</text>
+<text x="871" y="428" fill="#B9BEC2" font-size="17">Compare geometry, glass, finish</text>
+<text x="871" y="452" fill="#B9BEC2" font-size="17">pairs and catalog crop. Retry</text>
+<text x="871" y="476" fill="#B9BEC2" font-size="17">only the issue you identify.</text>
+<path d="M32 515h378l17 17v161H45L32 696z" fill="#151719" stroke="#373A3D"/>
+<path d="M32 515h91l-4 5H32z" fill="#D5FF3F"/>
+<text x="49" y="552" fill="#D5FF3F" font-size="14" letter-spacing="2">04 /</text>
+<text x="49" y="587" fill="#F7F8F9" font-size="21" font-weight="700">PRESERVE THE SESSION</text>
+<text x="49" y="626" fill="#B9BEC2" font-size="17">IndexedDB retains input and result</text>
+<text x="49" y="650" fill="#B9BEC2" font-size="17">images, queue status and options</text>
+<text x="49" y="674" fill="#B9BEC2" font-size="17">across browser work sessions.</text>
+<path d="M443 515h378l17 17v161H456L443 696z" fill="#151719" stroke="#373A3D"/>
+<path d="M443 515h91l-4 5H443z" fill="#D5FF3F"/>
+<text x="460" y="552" fill="#D5FF3F" font-size="14" letter-spacing="2">05 /</text>
+<text x="460" y="587" fill="#F7F8F9" font-size="21" font-weight="700">RESTORE FROM A PDF</text>
+<text x="460" y="626" fill="#B9BEC2" font-size="17">Rebuild rendered queue items from</text>
+<text x="460" y="650" fill="#B9BEC2" font-size="17">a supported completed PDF when</text>
+<text x="460" y="674" fill="#B9BEC2" font-size="17">editable browser data is gone.</text>
+<path d="M854 515h378l17 17v161H867L854 696z" fill="#151719" stroke="#373A3D"/>
+<path d="M854 515h91l-4 5H854z" fill="#D5FF3F"/>
+<text x="871" y="552" fill="#D5FF3F" font-size="14" letter-spacing="2">06 /</text>
+<text x="871" y="587" fill="#F7F8F9" font-size="21" font-weight="700">PUBLISH &amp; HAND OFF</text>
+<text x="871" y="626" fill="#B9BEC2" font-size="17">Compose the catalog PDF, export</text>
+<text x="871" y="650" fill="#B9BEC2" font-size="17">images and commerce CSV, then</text>
+<text x="871" y="674" fill="#B9BEC2" font-size="17">review the final presentation.</text>
+<path d="M32 731h1215" stroke="#373A3D"/>
+<text x="34" y="757" fill="#D5FF3F" font-size="13" letter-spacing="2">SUPPLIED DRAWINGS  /  HISTORICAL CAPTURES  /  REDACTED CATALOG EXCERPT  /  REVIEWABLE SOURCE</text>
+</g></svg>

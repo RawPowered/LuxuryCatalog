@@ -6,6 +6,6 @@ export const CONTACT_LINE = '100 Design Boulevard, Sample City, FL 33000 | (555)
 export const FOOTER_TEXT = `${COMPANY_NAME} 2026`;
 export const SKU_PREFIX = 'LUX';
 
-/** Normalize client SKU prefixes to publish-safe LUX- form. */
+/** Normalize alphabetic source SKU prefixes to publish-safe LUX- form. */
 export const sanitizeSkuForPublish = (sku: string): string =>
-  sku.replace(/^ABC/i, SKU_PREFIX).replace(/^abc/i, SKU_PREFIX);
+  sku.replace(/^[A-Za-z]{2,8}(?=-?\d)/, SKU_PREFIX);

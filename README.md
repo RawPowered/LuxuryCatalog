@@ -1,134 +1,56 @@
-<div align="center">
+# LuxuryCatalog
 
-  # LuxuryCatalog
+<img src="assets/brand/feature-board.svg" alt="LuxuryCatalog: supplied line art, glass and material guidance, reviewed finish variants, catalog PDF publishing and recovery" width="100%">
 
-  **Turn B&W line-art door designs into photorealistic luxury catalog images — with PDF export and disaster-recovery reverse engineering.**
+**From supplied door drawings to realistic, catalog-ready product imagery.**
 
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-  [![React 19](https://img.shields.io/badge/React-19-087EA4?logo=react&logoColor=white)](https://react.dev/)
-  [![Gemini](https://img.shields.io/badge/Gemini-Nano%20Banana-4285F4?logo=google&logoColor=white)](https://ai.google.dev/gemini-api/docs/image-generation)
-  [![Author](https://img.shields.io/badge/GitHub-RawPowered-181717?logo=github)](https://github.com/RawPowered)
+The client came to me with a specific problem: line drawings were all they could show, and their team had not found a repeatable way to keep the doors' shape and color consistent. I developed material guides, targeted correction controls and a review workflow that carried the designs into a finished catalog. This is my account of the brief; the preserved inputs, interface captures, output PDF and source let you examine the work.
 
-</div>
+**Four systems behind the result:** visual assessment and refinement; persistent browser work sessions in IndexedDB; restoration of rendered items from a supported completed PDF; and catalog and commerce exports. The feature board maps the full workflow above. Browser persistence refers to IndexedDB rather than the browser's temporary `sessionStorage`.
 
----
+<p><a href="docs/GALLERY.md"><img src="assets/brand/gallery.svg" alt="Browse the full gallery" height="38"></a> <a href="docs/DESIGN-PROCESS.md"><img src="assets/brand/process.svg" alt="Follow the design process" height="38"></a> <a href="output/pdf/LuxuryCatalog-Selected-Pages-Redacted.pdf"><img src="assets/brand/pdf.svg" alt="Open selected PDF pages" height="38"></a> <a href="docs/FEATURES-AND-SOURCE.md"><img src="assets/brand/source.svg" alt="Explore features and source" height="38"></a></p>
 
-## Why this exists
+<h2 id="start-with-the-transformation"><img src="assets/brand/section-1.svg" alt="Start with the transformation" width="100%"></h2>
 
-A luxury door manufacturer needed **photorealistic catalog renders** from basic black-and-white line art — at volume, with consistent teal glass and white/bronze variants. Off-the-shelf tools couldn't batch-process SKU queues, export print-ready PDFs, or recover when cloud source data was **irreversibly deleted**.
+<a href="docs/DESIGN-PROCESS.md"><img src="assets/brand/line-art-to-catalog.png" alt="Supplied diamond door line art beside light and dark rendered versions cropped from the finished catalog" width="100%"></a>
 
-LuxuryCatalog uses **Google Gemini Nano Banana** (`gemini-2.5-flash-image` / `gemini-3.1-flash-image-preview`) to transform line art into catalog-ready doors, then exports a full **LUX_Catalog_2026.pdf**. When the only surviving artifact was the finished PDF, the built-in **PDF reverse-engineering pipeline** parsed operator lists and SKU text to rebuild the editable queue.
+The drawing was supplied to me. The finished images come from the supplied catalog PDF. This comparison follows the same diamond design family; it presents preserved inputs and outputs rather than a newly executed generation run.
 
-**Created by:** [Joseph Edwards (@RawPowered)](https://github.com/RawPowered) · MIT licensed
+<h2 id="make-material-intent-explicit"><img src="assets/brand/section-2.svg" alt="Make material intent explicit" width="100%"></h2>
 
----
+**Red = frosted glass. Blue = solid frame and panels.** The structural-guide prompts encode that distinction. The workflow then provides separate controls for structural correction, repainting, glass tuning and rendering polish.
 
-## Core capabilities
+<table><tr><td width="55%" valign="top"><img src="assets/evidence/studio-loop-comparison.png" alt="March 16 historical capture of a red and blue material guide beside an intermediate studio render" width="100%"><p><strong>March 16, 2026: interpret the geometry.</strong><br>A supplied capture shows the material guide alongside an intermediate render.</p></td><td width="45%" valign="top"><img src="assets/evidence/finished-loop-variants.png" alt="April 4 historical capture of a refined loop design in light and dark finishes with product identifiers covered" width="100%"><p><strong>April 4, 2026: refine the catalog presentation.</strong><br>Light and dark variants with visible queue controls.</p></td></tr></table>
 
-| Capability | What it does |
-|---|---|
-| **Nano Banana image gen** | Line art → photorealistic door via Gemini image models; polish, repaint, glass-tune, reshape, structural-fix modes |
-| **Batch queue** | IndexedDB-backed queue with white/bronze variants, cross-color structural uniformity |
-| **Glass unification** | Canvas HSL post-process for consistent teal frosted glass across catalog |
-| **PDF export** | jsPDF catalog: AI covers, index, standard sizes, per-SKU layouts, magazine spreads every 10 SKUs |
-| **PDF disaster recovery** | pdfjs operator-list reverse engineering — extract door images + SKUs from finished PDF |
-| **WooCommerce export** | ZIP with AI product copy + variation CSV |
-| **Chrome extension** | `extension/wp-media-mapper` — WP Media Library → WooCommerce CSV mapper |
+These are dated examples from the same motif family. The [design case](docs/DESIGN-PROCESS.md) explains the review criteria and evidence boundaries.
 
----
+<h2 id="publish-the-catalog"><img src="assets/brand/section-3.svg" alt="Publish the catalog" width="100%"></h2>
 
-## Showcase output
+The supplied example contains **78 PDF pages**. This public showcase includes **three brand-redacted page excerpts**, retaining the original product layout, finish labels and page numbers.
 
-Sample renders extracted from a production catalog (client branding redacted to **LUX-**):
+<table><tr><td width="33%"><a href="assets/evidence/catalog-page-18.png"><img src="assets/evidence/catalog-page-18.png" alt="Redacted source catalog page 18: offset and loop designs" width="100%"></a></td><td width="33%"><a href="assets/evidence/catalog-page-51.png"><img src="assets/evidence/catalog-page-51.png" alt="Redacted source catalog page 51: geometric and crossed designs" width="100%"></a></td><td width="33%"><a href="assets/evidence/catalog-page-64.png"><img src="assets/evidence/catalog-page-64.png" alt="Redacted source catalog page 64: circular and offset designs" width="100%"></a></td></tr></table>
 
-<p align="center">
-  <img src="assets/showcase/LUX-sample-1.png" alt="Sample door render 1" width="180" />
-  <img src="assets/showcase/LUX-sample-2.png" alt="Sample door render 2" width="180" />
-  <img src="assets/showcase/LUX-sample-3.png" alt="Sample door render 3" width="180" />
-  <img src="assets/showcase/LUX-sample-4.png" alt="Sample door render 4" width="180" />
-</p>
+<a href="output/pdf/LuxuryCatalog-Selected-Pages-Redacted.pdf"><img src="assets/brand/pdf.svg" alt="Download the three-page redacted PDF excerpt" height="38"></a>
 
----
+The source PDF remains private. The excerpt is image-only, with identifying text removed from the pixels before assembly. The full gallery contains the selected evidence collection, including additional input and render captures; it does not reproduce the entire client catalog.
 
-## Quick start
+<h2 id="explore-the-build"><img src="assets/brand/section-4.svg" alt="Explore the build" width="100%"></h2>
 
-**Requirements:** Node.js 18+ · `GEMINI_API_KEY` from [Google AI Studio](https://aistudio.google.com/)
+| Area | Delivered implementation | Inspect |
+|:--|:--|:--|
+| Visual generation and correction | Image-model requests, structural guides, repaint, polish, glass-tune and reshape paths | [Design process](docs/DESIGN-PROCESS.md) |
+| Catalog consistency | Light/dark variants, reference-image context, glass hue processing and per-item overrides | [Image pipeline](docs/FEATURES-AND-SOURCE.md#image-pipeline) |
+| Persistent work queue | IndexedDB stores input/result blobs, item state and editing flags; UI exposes review and retry controls | [Queue and review](docs/FEATURES-AND-SOURCE.md#queue-and-review) |
+| PDF publishing | Product layouts, finish labels, paired-door compositing, covers, contents and lifestyle-spread tools | [Publishing](docs/FEATURES-AND-SOURCE.md#publishing) |
+| Recovery from PDF | Extract supported embedded images and nearby SKU/color text to rebuild rendered queue items | [Recovery](docs/FEATURES-AND-SOURCE.md#recovery-from-a-finished-pdf) |
+| Commerce handoff | Image ZIP, WooCommerce variation CSV, assisted copy and a WordPress media-mapping extension | [Commerce](docs/FEATURES-AND-SOURCE.md#commerce-handoff) |
 
-```powershell
-git clone https://github.com/RawPowered/LuxuryCatalog.git
-cd LuxuryCatalog
-copy .env.example .env.local
-# Set GEMINI_API_KEY in .env.local
-.\Launch-LuxuryCatalog.ps1
-```
+<h2 id="review-the-decisions-with-me"><img src="assets/brand/section-5.svg" alt="Review the decisions with me" width="100%"></h2>
 
-Or:
+For design and AI-assisted product roles, ask how I converted ambiguous line work into material instructions and judged the resulting geometry, glass and finish. For engineering roles, follow the queue state, image processing, export layout and recovery path.
 
-```bash
-npm install
-npm run dev
-```
+Historical screenshots span February through April 2026. They establish visible work and output; the code supplies implementation detail. [Evidence and current checks](docs/EVIDENCE.md) distinguish captured results from features represented in source.
 
-Open `http://localhost:3000` — upload B&W line art, start the queue, export PDF or restore from an existing catalog PDF.
+<p><a href="docs/LOCAL-SETUP.md"><img src="assets/brand/setup.svg" alt="Local setup and boundaries" height="38"></a> <a href="https://github.com/RawPowered"><img src="assets/brand/profile.svg" alt="RawPowered portfolio" height="38"></a></p>
 
----
-
-## Disaster recovery workflow
-
-```mermaid
-flowchart LR
-  CloudLost[Cloud source deleted] --> OnlyPDF[Only finished PDF remains]
-  OnlyPDF --> Extract[pdfExtractor reverse-engineer]
-  Extract --> Queue[Rebuild IndexedDB queue]
-  Queue --> Edit[Re-render / edit / re-export]
-```
-
-1. **Restore from PDF** in the app sidebar
-2. pdfjs parses `SKU:` text + color labels and walks `paintImageXObject` operators
-3. Spatial matching ties each image to its SKU (150px Y tolerance)
-4. Restored items re-enter the queue as completed renders — ready for WooCommerce export or new PDF generation
-
----
-
-## Project layout
-
-```
-LuxuryCatalog/
-├── src/
-│   ├── App.tsx              # Orchestrator UI
-│   ├── lib/
-│   │   ├── gemini.ts        # Nano Banana model config
-│   │   ├── db.ts            # IndexedDB queue
-│   │   ├── pdfExtractor.ts  # PDF reverse engineering
-│   │   ├── pdfExport.ts     # Export constants
-│   │   ├── pdfImageUtils.ts # Double-door compositing, crop, resize
-│   │   ├── glassModifier.ts # Teal glass unification
-│   │   └── catalogBranding.ts
-│   └── components/
-├── extension/wp-media-mapper/  # WooCommerce Chrome extension
-├── assets/showcase/              # Redacted sample renders
-├── scripts/extract_showcase.py   # Regenerate showcase PNGs from PDF
-└── EnVars/
-```
-
----
-
-## Gemini models
-
-| Tier | Model | Use |
-|---|---|---|
-| Free | `gemini-2.5-flash-image` | Door renders, covers, spreads |
-| Pro | `gemini-3.1-flash-image-preview` | 4K door renders |
-| Text | `gemini-3-flash-preview` | WooCommerce copy, AI SKU sort |
-
----
-
-## Chrome extension
-
-Load unpacked: `extension/wp-media-mapper/` — scrape WordPress Media Library, map filenames to SKUs, export WooCommerce variable product CSV.
-
----
-
-## License
-
-MIT — see [LICENSE](LICENSE).
+Software source: [MIT license](LICENSE). Supplied artwork and evidence media: [media rights](assets/evidence/README.md). [Joseph Edwards on LinkedIn](https://www.linkedin.com/in/josephedwardscto/).

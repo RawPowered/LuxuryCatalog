@@ -1,0 +1,198 @@
+[
+  {
+    "file": "line-art-pair.png",
+    "title": "Supplied line art: diamond and rectangular designs",
+    "date": "2026-02-25",
+    "type": "historical screenshot",
+    "edits": "Fresh metadata-free copy; pixels retained"
+  },
+  {
+    "file": "line-art-diamond-01.png",
+    "title": "Supplied diamond line art, capture 1",
+    "date": "2026-02-25",
+    "type": "historical screenshot",
+    "edits": "Fresh metadata-free copy; pixels retained"
+  },
+  {
+    "file": "line-art-diamond-02.png",
+    "title": "Supplied diamond line art, capture 2",
+    "date": "2026-02-25",
+    "type": "historical screenshot",
+    "edits": "Fresh metadata-free copy; pixels retained"
+  },
+  {
+    "file": "line-art-diamond-03.png",
+    "title": "Supplied diamond line art, capture 3",
+    "date": "2026-02-25",
+    "type": "historical screenshot",
+    "edits": "Fresh metadata-free copy; pixels retained"
+  },
+  {
+    "file": "line-art-diamond-04.png",
+    "title": "Supplied diamond line art, capture 4",
+    "date": "2026-02-25",
+    "type": "historical screenshot",
+    "edits": "Header cropped; source pixels retained"
+  },
+  {
+    "file": "line-art-diamond-05.png",
+    "title": "Supplied diamond line art, capture 5",
+    "date": "2026-02-25",
+    "type": "historical screenshot",
+    "edits": "Fresh metadata-free copy; pixels retained"
+  },
+  {
+    "file": "line-art-diamond-06.png",
+    "title": "Supplied diamond line art, capture 6",
+    "date": "2026-02-25",
+    "type": "historical screenshot",
+    "edits": "Fresh metadata-free copy; pixels retained"
+  },
+  {
+    "file": "line-art-rectangles.png",
+    "title": "Supplied rectangular line art",
+    "date": "2026-02-25",
+    "type": "historical screenshot",
+    "edits": "Header cropped; source pixels retained"
+  },
+  {
+    "file": "early-catalog-01.png",
+    "title": "Early catalog layout capture 1",
+    "date": "2026-02-23",
+    "type": "historical screenshot",
+    "edits": "Product identifiers covered with opaque blocks"
+  },
+  {
+    "file": "early-catalog-02.png",
+    "title": "Early catalog layout capture 2",
+    "date": "2026-02-23",
+    "type": "historical screenshot",
+    "edits": "Product identifiers covered with opaque blocks"
+  },
+  {
+    "file": "material-guide-sweep.png",
+    "title": "Red glass / blue structure: swept motif",
+    "date": "2026-03-11",
+    "type": "historical screenshot",
+    "edits": "Header cropped; source pixels retained"
+  },
+  {
+    "file": "material-guide-cross.png",
+    "title": "Red glass / blue structure: crossed motif",
+    "date": "2026-03-11",
+    "type": "historical screenshot",
+    "edits": "Header cropped; source pixels retained"
+  },
+  {
+    "file": "material-guide-squares.png",
+    "title": "Red glass / blue structure: linked squares",
+    "date": "2026-03-11",
+    "type": "historical screenshot",
+    "edits": "Header cropped; source pixels retained"
+  },
+  {
+    "file": "material-guide-grid.png",
+    "title": "Red glass / blue structure: grid motif",
+    "date": "2026-03-11",
+    "type": "historical screenshot",
+    "edits": "Header cropped; source pixels retained"
+  },
+  {
+    "file": "material-guide-offset.png",
+    "title": "Red glass / blue structure: offset motif",
+    "date": "2026-03-11",
+    "type": "historical screenshot",
+    "edits": "Header cropped; source pixels retained"
+  },
+  {
+    "file": "studio-loop-comparison.png",
+    "title": "Historical material guide beside an intermediate loop render",
+    "date": "2026-03-16",
+    "type": "historical screenshot",
+    "edits": "Fresh metadata-free copy; pixels retained"
+  },
+  {
+    "file": "studio-oval-comparison.png",
+    "title": "Historical material guide beside an intermediate oval render",
+    "date": "2026-03-16",
+    "type": "historical screenshot",
+    "edits": "Fresh metadata-free copy; pixels retained"
+  },
+  {
+    "file": "studio-square-comparison.png",
+    "title": "Historical material guide beside an intermediate geometric render",
+    "date": "2026-03-16",
+    "type": "historical screenshot",
+    "edits": "Fresh metadata-free copy; pixels retained"
+  },
+  {
+    "file": "finished-queue.png",
+    "title": "Completed queue with light and dark finish variants",
+    "date": "2026-04-04",
+    "type": "historical screenshot",
+    "edits": "Product identifiers covered with opaque blocks"
+  },
+  {
+    "file": "finished-loop-detail.png",
+    "title": "Refined light-finish loop design",
+    "date": "2026-04-04",
+    "type": "historical screenshot",
+    "edits": "Product identifiers covered with opaque blocks"
+  },
+  {
+    "file": "finished-loop-variants.png",
+    "title": "Refined loop design in light and dark finishes",
+    "date": "2026-04-04",
+    "type": "historical screenshot",
+    "edits": "Product identifiers covered with opaque blocks"
+  },
+  {
+    "file": "finished-offset-variants.png",
+    "title": "Refined offset design in light and dark finishes",
+    "date": "2026-04-05",
+    "type": "historical screenshot",
+    "edits": "Product identifiers covered with opaque blocks"
+  },
+  {
+    "file": "additional-render-montage.png",
+    "title": "Additional supplied render montage",
+    "date": "Undated",
+    "type": "supplied screenshot",
+    "edits": "Top conversation chrome cropped; remaining pixels retained"
+  },
+  {
+    "file": "catalog-page-18.png",
+    "title": "Actual catalog output, source page 18 of 78",
+    "date": "2026 catalog; export date unverified",
+    "type": "redacted PDF raster",
+    "edits": "Brand-bearing SKU text and footer burned out; original layout retained"
+  },
+  {
+    "file": "catalog-page-51.png",
+    "title": "Actual catalog output, source page 51 of 78",
+    "date": "2026 catalog; export date unverified",
+    "type": "redacted PDF raster",
+    "edits": "Brand-bearing SKU text and footer burned out; original layout retained"
+  },
+  {
+    "file": "catalog-page-64.png",
+    "title": "Actual catalog output, source page 64 of 78",
+    "date": "2026 catalog; export date unverified",
+    "type": "redacted PDF raster",
+    "edits": "Brand-bearing SKU text and footer burned out; original layout retained"
+  },
+  {
+    "file": "diamond-output-light.png",
+    "title": "Diamond design, light finish from supplied catalog",
+    "date": "2026 catalog; export date unverified",
+    "type": "PDF image crop",
+    "edits": "Door-only crop of source page 8; labels and footer excluded"
+  },
+  {
+    "file": "diamond-output-dark.png",
+    "title": "Diamond design, dark finish from supplied catalog",
+    "date": "2026 catalog; export date unverified",
+    "type": "PDF image crop",
+    "edits": "Door-only crop of source page 8; labels and footer excluded"
+  }
+]
